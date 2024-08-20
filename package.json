@@ -2,7 +2,7 @@
   "name": "node-search-engine-stackoverflow",
   "version": "1.00",
   "scripts": {
-    "serve": "nodemon src/index.ts"
+    "serve": "nodemon index.ts"
   },
   "dependencies": {
     "@types/express": "^4.17.21",
