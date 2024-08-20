@@ -5,10 +5,6 @@ This project is a simple search engine for StackOverflow, built using Node.js. I
 ## Features
 
 - **Search Functionality**: Enter a query to search StackOverflow questions and get relevant results.
-- **Filtering**: Filter results based on tags, date, and other criteria.
-- **Pagination**: View results across multiple pages with ease.
-- **User-Friendly Interface**: A clean and responsive web interface for easy navigation and use.
-- **API Integration**: Uses the StackOverflow API to fetch the latest and most relevant search results.
 
 ## Prerequisites
 
@@ -29,13 +25,13 @@ Before you begin, ensure you have met the following requirements:
 
    ```bash
    cp .env.example .env
-   npm install
+   yarn
    ```
 
 3. **Run the Application**:
 
    ```bash
-   npm start
+   yarn serve
    ```
 
 4. **Access the Application**:
@@ -44,15 +40,11 @@ Before you begin, ensure you have met the following requirements:
 ## Usage
 
 - **Search**: Enter your search query in the search bar and click "Search".
-- **Filter**: Use the available filters to narrow down your search results.
-- **Pagination**: Navigate through the search results using the pagination controls.
 
 ## Project Structure
 
 - **src/controllers**: Holds the controller logic for handling routes.
-- **src/models**: Contains the data models (if needed).
 - **src/routes**: Defines the routes for the application.
-- **src/services**: Holds the logic for interacting with the StackOverflow API.
 - **index.js**: The main entry point for the application.
 
 ## Contributing
