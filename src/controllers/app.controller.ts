@@ -18,7 +18,7 @@ const search = async (req: Request, res: Response) => {
         },
       }
     );
-    const results = response.data.items.map((item) => ({
+    const results = response.data.items.map((item: any) => ({
       title: item.title,
       link: item.link,
       is_answered: item.is_answered,
