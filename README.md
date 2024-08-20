@@ -28,6 +28,7 @@ Before you begin, ensure you have met the following requirements:
 2. **Install Dependencies**:
 
    ```bash
+   cp .env.example .env
    npm install
    ```
 
@@ -38,7 +39,7 @@ Before you begin, ensure you have met the following requirements:
    ```
 
 4. **Access the Application**:
-   Open your browser and go to `http://localhost:3000`.
+   Open your browser and go to `http://localhost:8080/api-docs`.
 
 ## Usage
 
