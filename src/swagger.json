@@ -1,0 +1,37 @@
+{
+  "swagger": "2.0",
+  "info": {
+    "version": "1.0.0",
+    "title": "Node Search Engine StackOverflow",
+    "description": "This project is a simple search engine for StackOverflow, built using Node.js. It allows users to search for questions and answers on StackOverflow by querying the API and returning results in a user-friendly format.",
+    "license": {
+      "name": "MIT",
+      "url": "https://opensource.org/licenses/MIT"
+    }
+  },
+  "schemes": ["http"],
+  "consumes": ["application/json"],
+  "produces": ["application/json"],
+  "paths": {
+    "/search": {
+      "get": {
+        "summary": "StackOverflow Search Engine",
+        "tags": ["Search"],
+        "parameters": [
+          {
+            "name": "query",
+            "in": "query",
+            "description": "The search query string.",
+            "required": true,
+            "type": "string"
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Search"
+          }
+        }
+      }
+    }
+  }
+}

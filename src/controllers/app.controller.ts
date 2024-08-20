@@ -2,7 +2,7 @@ import { Request, Response } from "express";
 import axios from "axios";
 
 const search = async (req: Request, res: Response) => {
-  const query = req.query.q;
+  const query = req.query.query;
   try {
     if (!query) {
       return res.status(400).json({ error: "Please provide a search query" });
