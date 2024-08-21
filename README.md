@@ -45,7 +45,7 @@ Before you begin, ensure you have met the following requirements:
 
 - **src/controllers**: Holds the controller logic for handling routes.
 - **src/routes**: Defines the routes for the application.
-- **index.js**: The main entry point for the application.
+- **app.ts**: The main entry point for the application.
 
 ## Contributing
 
