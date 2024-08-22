@@ -31,3 +31,4 @@ const search = async (req: Request, res: Response) => {
 };
 
 export default { search };
+
